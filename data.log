@@ -1,0 +1,60 @@
+{
+  "bears": 8,
+  "pages": [
+    "HomePage",
+    "ContactPage"
+  ],
+  "meta": {
+    "name": "",
+    "description": ""
+  },
+  "locale": {
+    "en": {
+      "home": "Home",
+      "contact": "Contact"
+    },
+    "fr": {
+      "home": "Accueil",
+      "contact": "Contact"
+    }
+  },
+  "components": {
+    "Logo": {
+      "name": "Logo",
+      "componentType": "logo",
+      "children": []
+    },
+    "Menu": {
+      "name": "Menu",
+      "componentType": "menu",
+      "children": []
+    },
+    "Header": {
+      "name": "Header",
+      "componentType": "header",
+      "children": [
+        "Logo",
+        "Menu"
+      ]
+    },
+    "HomePage": {
+      "name": "HomePage",
+      "componentType": "page",
+      "children": [
+        "Header"
+      ]
+    },
+    "ContactBox": {
+      "name": "ContactBox",
+      "componentType": "power",
+      "children": []
+    },
+    "ContactPage": {
+      "name": "ContactPage",
+      "componentType": "page",
+      "children": [
+        "ContactBox"
+      ]
+    }
+  }
+}

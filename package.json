@@ -5,15 +5,16 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "deno run --allow-env --allow-sys src/main.tsx",
-    "compile": "deno compile --allow-env --allow-sys --output dist/main src/main.tsx"
+    "dev": "deno run --allow-all src/main.tsx",
+    "compile": "deno compile --allow-all --output dist/main src/main.tsx"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "ink": "^4.4.1",
-    "react": "^18.2.0"
+    "react": "^18.2.0",
+    "zustand": "4.4.7"
   },
   "devDependencies": {
     "@types/react": "^18.2.45",

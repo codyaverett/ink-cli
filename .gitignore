@@ -3,6 +3,3 @@ node_modules
 dist
 third-party
 target
-
-/packages/react-components/
-/third-party/smol-ai/
