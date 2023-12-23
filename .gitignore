@@ -1,0 +1,8 @@
+node_modules
+.DS_Store
+dist
+third-party
+target
+
+/packages/react-components/
+/third-party/smol-ai/
